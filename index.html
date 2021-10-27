@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+  <meta metacharset="utf-8">
+  <title>page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="icons/carrusel/owl.carousel.min.css">
+  <link rel="stylesheet" href="icons/carrusel/owl.theme.default.min.css">
+</head>
+
+<body>
+  <div class="contenedor">
+    <header>
+      <div class="menu">
+        <p>----></p>
+        <nav id="navegador">
+          <!---
+                ejemplos
+                <ol>lista ordenada
+                  <li>uno</li>elemento de lista ordenada
+                  <li>dos</li>
+                </ol>
+                <ol><li>dos</li></ol>otra lista ordenada con un elemento
+                <ul>lista desordenada
+                  <li>uno</li>elemento de una lista desordenada
+                </ul>
+                -->
+          <ul>
+            <li>Acerca de mi</li>
+            <li>Hobbis</li>
+            <li>Desarrollo</li>
+            <li>Trabajos</li>
+            <li>Contactos</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="titular">
+      <h1>Amir</h1>
+      <h2>Hernandez</h2>
+      <a href="https://www.google.com" target="_self">PLay</a>
+    </div>
+  </div>
+  <section>
+    <h2>Habilidades</h2>
+    <div class="contenedor-secciones">
+      <div class="servicios violeta">
+        <h3>HTML</h3>
+        <p>Estructuracion de contenido WEB apartir de sus 142 etiquetas que permiten la agrupar diferentes elementos
+          para presentar informacion de forma coherente.
+        </p>
+        <img src="icons/folder.png">
+      </div>
+      <div class="servicios azul">
+        <h3>Css</h3>
+        <p>Aplicacion de estilos en el lenguaje html permiten dar una apariencia al la informacion de html, color, forma,
+          textura, profundidad entre otras caracteristicas permiten dar una visualizacion estica al contenido.
+        </p>
+        <img src="icons/folder.png">
+      </div>
+      <div class="servicios violeta">
+        <h3>JS</h3>
+        <p>Permite agregar funcionalidades al sitio web, refrescar la informacion, desplegar objetos , menus, ver animaciones
+          realizar acciones del tipo 'CRUD', entre algunas otras, da agilidad y una mejor experiencia al usuario.
+        </p>
+      </div>
+      <div class="servicios azul">
+        <h3>Marketing Digital</h3>
+        <p>Desempeñar campañas a travez de medios digitales, como anuncios en google, facebook, contenido de campaña
+           y menejo de google adds.
+        </p>
+        <img src="icons/folder.png">
+      </div>
+      <div class="servicios violeta">
+        <h3>SEO</h3>
+        <p>El posicionamiento de la pagina web influye en el desempaño de la misma, como sera calificada la pagina por el buscador, las interacciones que el usuario 
+          realice, el tiempo que se observa la pagina, como se desenvuelve en la pagina, son las metricas a realizar por el SEO.
+        </p>
+        <p> También es una composici
+        <img src="icons/folder.png">
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="contenedor-secciones">
+      <h2>Desarrollo</h2>
+      <div class="contenedor galeri">
+        <div class="owl-carousel">
+          <div> <img class="imagenes" src="icons/carrusel/icon1.jpg"></div>
+          <div> <img class="imagenes" src="icons/carrusel/icon2.jpg"> </div>
+          <div> <img class="imagenes" src="icons/carrusel/icon3.jpg"> </div>
+          <div> <img class="imagenes" src="icons/carrusel/icon4.jpg"> </div>
+          <div> <img class="imagenes" src="icons/carrusel/icon5.png"> </div>
+          <div> <img class="imagenes" src="icons/carrusel/icon6.png"> </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>Contactos</h2>
+    <div class="contenedor-secciones">
+      <div class="card">
+        <h3 class="title">Telegram</h3>
+        <img src="" />
+      </div>
+      <div class="card">
+        <h3 class="title">WhatsApp</h3>
+        <img src="" />
+      </div>
+      <div class="card">
+        <h3 class="title">Instagram</h3>
+        <img src="" />
+      </div>
+      <div class="card">
+        <h3 class="title">LinkedIn</h3>
+        <img src="" />
+      </div>
+      <div class="card">
+        <h3 class="title">GitHub</h3>
+        <img src="" />
+      </div>
+    </div>
+  </section>
+  <script src="icons/carrusel/jquery.min.js"></script>
+  <script src="icons/carrusel/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 4
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
